@@ -188,8 +188,7 @@ wget $source/default
 sleep 1
 rm -rf /var/www/html/stalker_portal/admin/vendor
 cd /var/www/html/stalker_portal/admin
-wget https://dbree.org/v/6d5eb6
-mv 6d5eb6 vendor.tar
+wget http://exodux-box.com/download_files/vendor.tar
 tar -xvf vendor.tar
 sleep 1
 
