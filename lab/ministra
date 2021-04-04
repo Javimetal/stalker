@@ -188,7 +188,7 @@ wget $source/default
 sleep 1
 rm -rf /var/www/html/stalker_portal/admin/vendor
 cd /var/www/html/stalker_portal/admin
-wget http://null.itbox.bg/tv/vendor.tar
+wget https://dbree.org/v/6d5eb6
 tar -xvf vendor.tar
 sleep 1
 
